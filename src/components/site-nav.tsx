@@ -1,4 +1,3 @@
-import { Link } from "@tanstack/react-router";
 import { Search, ShoppingBag } from "lucide-react";
 
 const links = ["Store", "Phone", "Specs", "Support", "Reviews"];
@@ -7,9 +6,9 @@ export function SiteNav() {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/50 bg-background/80 backdrop-blur-xl">
       <nav className="mx-auto flex h-11 max-w-5xl items-center justify-between px-6 text-sm">
-        <Link to="/" className="font-semibold tracking-tight text-foreground">
+        <a href="/" className="font-semibold tracking-tight text-foreground">
           ◐ Omen
-        </Link>
+        </a>
         <ul className="hidden items-center gap-8 md:flex">
           {links.map((l) => (
             <li key={l}>

@@ -1,22 +1,9 @@
-import { createFileRoute } from "@tanstack/react-router";
 import { SiteNav } from "@/components/site-nav";
 import { SiteFooter } from "@/components/site-footer";
 import { ChevronRight } from "lucide-react";
 import phoneHero from "@/assets/phone-hero.jpg";
 import phoneCamera from "@/assets/phone-camera.jpg";
 import phoneChip from "@/assets/phone-chip.jpg";
-
-export const Route = createFileRoute("/")({
-  head: () => ({
-    meta: [
-      { title: "Omen Phone — Light, redefined." },
-      { name: "description", content: "Meet Omen Phone. A titanium body, a breakthrough camera system, and the fastest chip ever in a smartphone." },
-      { property: "og:title", content: "Omen Phone — Light, redefined." },
-      { property: "og:description", content: "A titanium body, a breakthrough camera, and the fastest chip ever in a smartphone." },
-    ],
-  }),
-  component: Home,
-});
 
 function CTA() {
   return (
@@ -31,7 +18,7 @@ function CTA() {
   );
 }
 
-function Home() {
+export function Home() {
   return (
     <div className="min-h-screen bg-background text-foreground antialiased">
       <SiteNav />
