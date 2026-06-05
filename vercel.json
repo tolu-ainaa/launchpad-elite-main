@@ -1,5 +1,15 @@
 {
   "buildCommand": "bun run build",
   "installCommand": "bun install",
-  "framework": null
+  "framework": null,
+  "routes": [
+    {
+      "src": "^/assets/(.*)$",
+      "dest": "/assets/$1"
+    },
+    {
+      "src": ".*",
+      "dest": "/"
+    }
+  ]
 }
