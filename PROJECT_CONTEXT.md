@@ -1,7 +1,7 @@
 # launchpad-elite — Project Context
 
 ## What this is
-A fictional smartphone product landing page called **Lumen Phone**. Built with the Lovable platform (lovable.dev) as a demo storefront. Not a real product.
+A fictional smartphone product landing page called **Omen Phone**. Built with the Lovable platform (lovable.dev) as a demo storefront. Not a real product.
 
 ## Tech stack
 | Layer | Tool |
@@ -49,7 +49,7 @@ src/
 ## Page sections (index.tsx, top → bottom)
 1. **SiteNav** — sticky header
 2. **Promo banner** — free engraving / 2-day shipping strip
-3. **Hero** — "Lumen Phone / Light, redefined." + hero image
+3. **Hero** — "Omen Phone / Light, redefined." + hero image
 4. **Camera section** — dark bg, triple-lens copy + camera image
 5. **Chip section** — two-column, L3 chip copy + chip image
 6. **Specs grid** — 6-cell grid (display, frame, battery, IP68, USB-C, 5G)

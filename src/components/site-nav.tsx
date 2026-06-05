@@ -8,7 +8,7 @@ export function SiteNav() {
     <header className="sticky top-0 z-50 w-full border-b border-border/50 bg-background/80 backdrop-blur-xl">
       <nav className="mx-auto flex h-11 max-w-5xl items-center justify-between px-6 text-sm">
         <Link to="/" className="font-semibold tracking-tight text-foreground">
-          ◐ Lumen
+          ◐ Omen
         </Link>
         <ul className="hidden items-center gap-8 md:flex">
           {links.map((l) => (

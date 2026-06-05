@@ -9,9 +9,9 @@ import phoneChip from "@/assets/phone-chip.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Lumen Phone — Light, redefined." },
-      { name: "description", content: "Meet Lumen Phone. A titanium body, a breakthrough camera system, and the fastest chip ever in a smartphone." },
-      { property: "og:title", content: "Lumen Phone — Light, redefined." },
+      { title: "Omen Phone — Light, redefined." },
+      { name: "description", content: "Meet Omen Phone. A titanium body, a breakthrough camera system, and the fastest chip ever in a smartphone." },
+      { property: "og:title", content: "Omen Phone — Light, redefined." },
       { property: "og:description", content: "A titanium body, a breakthrough camera, and the fastest chip ever in a smartphone." },
     ],
   }),
@@ -43,13 +43,13 @@ function Home() {
 
       {/* Hero */}
       <section className="bg-background pt-12 pb-6 text-center">
-        <h1 className="text-5xl font-semibold tracking-tight md:text-7xl">Lumen Phone</h1>
+        <h1 className="text-5xl font-semibold tracking-tight md:text-7xl">Omen Phone</h1>
         <p className="mt-3 text-xl font-medium tracking-tight text-foreground md:text-2xl">Light, redefined.</p>
         <p className="mt-3 text-base text-muted-foreground">From $999 or $41.62/mo. for 24 mo.*</p>
         <CTA />
         <img
           src={phoneHero}
-          alt="Lumen Phone floating against a white background"
+          alt="Omen Phone floating against a white background"
           width={1600}
           height={900}
           className="mx-auto mt-10 w-full max-w-4xl"
@@ -68,7 +68,7 @@ function Home() {
           </p>
           <img
             src={phoneCamera}
-            alt="Close-up of the Lumen Phone triple camera system"
+            alt="Close-up of the Omen Phone triple camera system"
             width={1600}
             height={1200}
             loading="lazy"
@@ -133,7 +133,7 @@ function Home() {
         <p className="mt-4 text-lg text-muted-foreground">Build yours in under a minute. Free delivery.</p>
         <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
           <a href="#" className="rounded-full bg-foreground px-7 py-3 font-medium text-background transition-opacity hover:opacity-90">
-            Buy Lumen Phone
+            Buy Omen Phone
           </a>
           <a href="#" className="rounded-full border border-border bg-background px-7 py-3 font-medium text-foreground hover:bg-secondary">
             Compare models
